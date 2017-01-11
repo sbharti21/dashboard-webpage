@@ -1,0 +1,25 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link rel="stylesheet" type="text/css" href="/F:/Projects//Dashboard/css/stylesheet.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<div class= "container">
+		<div class= "content">
+			<div class= "sidebar">
+				<div class="left">
+					 <a class="active" href="#"><i class="fa fa-tachometer"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
+				</div>
+				<div class="right">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
