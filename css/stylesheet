@@ -1,0 +1,54 @@
+body{
+	padding: 0px;
+	margin: 0px;	
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	background: linear-gradient(50deg, #60347B, #CA4C7B 50%); 
+}					
+.content{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+	background-color: #2A363B;
+	border-radius: 3px;
+}
+.sidebar{
+	height:100%;
+	width: 200px;
+}
+.left{
+	height:100%;
+	width:50px;
+	float: left;
+	z-index: 20;
+}
+.left a {
+	padding: 16px;
+	display: block;
+	transition: all 0.3s ease;
+	color: white;
+}
+
+.left a:hover {
+	background-color: #000;
+}
+
+.active {
+	border: 3px  #CA4C7B;
+	border-style: none none none solid;
+}
+.right{
+	height:100%;
+	width:150px;
+	float: left;
+	background-color: #263035;
+}
